@@ -6,7 +6,7 @@ const Auth = () => {
   const [name, setName] = useState('');
   const [password, setPassword] = useState('');
 
-  const [variant, setVariant] = useState('');
+  const [variant, setVariant] = useState('login');
 
   const toggleVariant = useCallback(() => {
     setVariant((currentVariant) =>
@@ -69,7 +69,7 @@ const Auth = () => {
 
               <span
                 onClick={toggleVariant}
-                className='text-white ml-1 hover:ınderline cursor-pointer'
+                className='text-white ml-1 hover:underline cursor-pointer'
               >
                 {variant === 'login' ? ' Create an account' : ' Login'}
               </span>
