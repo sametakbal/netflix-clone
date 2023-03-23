@@ -1,3 +1,9 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_netflix-clone&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sametakbal_netflix-clone)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_netflix-clone&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=sametakbal_netflix-clone)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_netflix-clone&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=sametakbal_netflix-clone)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_netflix-clone&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sametakbal_netflix-clone)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_netflix-clone&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=sametakbal_netflix-clone)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
