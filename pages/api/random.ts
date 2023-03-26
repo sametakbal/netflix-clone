@@ -14,7 +14,7 @@ export default async function handler(
     await serverAuth(req);
 
     const movieCount = await prismadb.movie.count();
-    const randomIndex = Math.floor(Math.random() * movieCount);
+    const randomIndex = new Date().getMilliseconds() % movieCount;
 
     const randomMovies = await prismadb.movie.findMany({
       take: 1,
