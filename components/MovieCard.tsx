@@ -7,7 +7,7 @@ import { MovieInterface } from '@/types';
 import { BsChevronDown, BsPlay } from 'react-icons/bs';
 
 interface MovieCardProps {
-  data: MovieInterface;
+  data: MovieInterface | any;
 }
 
 const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
